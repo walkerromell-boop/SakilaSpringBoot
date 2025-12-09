@@ -1,8 +1,11 @@
 package com.pluralsight.SakilaSpringBoot.Data;
 
 import com.pluralsight.SakilaSpringBoot.Model.Actor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
+@Component
+
 
 public class ActorDaoJdbc implements ActorDao {
     @Override
